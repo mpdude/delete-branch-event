@@ -3,7 +3,7 @@ on:
         branches:
             - main
     pull_request:
-    delete:
+        types: [opened, synchronize, closed, reopened]
 
 jobs:
   printJob:    
